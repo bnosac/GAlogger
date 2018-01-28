@@ -12,7 +12,7 @@ Easily track how R users use your application by sending pageviews or events to 
 - Keep track on how your internal useRs are using your package (e.g. when a user loads your package or uses a specific function or webservice)
 - Do you want to keep track on the status of a long-running process or keep track of an error message if something failed.
 
-![](README-screenshot-1.png)
+![](https://github.com/bnosac/GAlogger/raw/master/README-screenshot-1.png)
 
 ## Set-up
 
@@ -52,7 +52,7 @@ ga_collect_event(event_category = "Simulation", event_label = "Launching Bayesia
                  event_action = "How many simulations", event_value = 10)                 
 ```
 
-![](README-screenshot-2.png)
+![](https://github.com/bnosac/GAlogger/raw/master/README-screenshot-2.png)
 
 
 ## Installation
