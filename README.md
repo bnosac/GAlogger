@@ -1,11 +1,11 @@
 # GAlogger - Log R Events and R Usage to Google Analytics
 
-Easily track how R users use your application by sending pageviews or events to Google Analytics. With the following use cases in mind
+Easily track how R users use your application by sending pageviews or events to Google Analytics. Developed with the following use cases in mind
 
 **Track usage of your application**
 
-- If someone visits a page in your web application (e.g. Shiny) or web service (e.g. RApache, Plumber), use this package to send the page and title of the page which is visited so that you can easily see how users are using your application
-- Do you want to know which user inputs people set in your Shiny app, collect these events easily
+- If someone visits a page in your web application (e.g. Shiny) or web service (e.g. RApache, Plumber), use this R package to send the page and title of the page which is visited so that you can easily see how visitors are using your application
+- Do you want to know which user inputs are set in your Shiny app, you can now collect these events easily with this R package
 
 **Track usage of your scripts / package usage / functions**
 
@@ -89,7 +89,7 @@ ga_collect_pageview(page = "/home")
 ga_collect_event(event_category = "Waw", event_action = "I got visitors")
 ```
 
-This package by itself does not send private information to Google Analytics, the R developer itself is responsible for making sure not to send any information which he/she does not want to see appearing in Google Analytics or he/she is not entitled to store elsewhere. If you do not trust this statement, just look at the R code, it is pretty basic and is released under the Mozilla Public License 2.0. 
+This package by itself does not send private information to Google Analytics, the R developer itself is responsible for making sure not to send any information which he/she does not want to see appearing in Google Analytics or he/she is not entitled to store elsewhere. If you do not trust this statement, just look at the R source code at https://github.com/bnosac/GAlogger/blob/master/R/pkg.R, it is pretty basic and is released under the Mozilla Public License 2.0 so you can see what id does. 
 
 
 ## Support in R application development
