@@ -1,0 +1,14 @@
+Package: GAlogger
+Type: Package
+Title: Log Events and Usage to Google Analytics
+Version: 0.1
+Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+Authors@R: c(person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jwijffels@bnosac.be'), person('BNOSAC', role = 'cph'))
+Description: Store events to Google Analytics in order to track usage of your application. This allows R developers and application owners to easily store how people use specific functions, shiny applications, web services, when packages are loaded or to store basic code status messages or error messages. The events are stored on Google Analytics which allows to quickly see how one is using your application. Events are only send in case the user gives his or her approval.
+License: MPL-2.0
+URL: https://github.com/bnosac/GAlogger
+Encoding: UTF-8
+Imports: curl, uuid
+Suggests: knitr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
