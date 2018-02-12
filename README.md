@@ -80,7 +80,7 @@ At package startup, the package looks to 5 environment variables. Set these in y
 ```
 Sys.setenv('GALOG_UA_TRACKINGID' = "UA-25938715-4")
 Sys.setenv('GALOG_UA_USERID' = "datascientist-workstation-xyz")
-Sys.setenv('GALOG_UA_USERID' = "a5d1eeb6-0459-11e8-8912-134976ff196e")
+Sys.setenv('GALOG_UA_CLIENTID' = "a5d1eeb6-0459-11e8-8912-134976ff196e")
 Sys.setenv('GALOG_HOSTNAME' = "www.mywebapplication.org")
 Sys.setenv('GALOG_CONSENT' = "yes")
 
