@@ -182,7 +182,7 @@ ga_set_approval <- function(message, consent = FALSE){
 #' @param event_category a character string of length 1 with the category of the event
 #' @param event_action a character string of length 1 with the action of the event
 #' @param event_label a character string of length 1 with the label of the event. This is optional.
-#' @param event_value a character string of length 1 with the value of the event. This is optional.
+#' @param event_value a integer of length 1 with the value of the event. This is optional.
 #' @return invisibly the result of a call to \code{\link[curl]{curl_fetch_memory}} which sends the data to Google Analytics
 #' or an object of try-error if the internet is not working
 #' @export

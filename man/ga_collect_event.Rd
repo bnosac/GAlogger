@@ -14,7 +14,7 @@ ga_collect_event(event_category = "Start", event_action = "default",
 
 \item{event_label}{a character string of length 1 with the label of the event. This is optional.}
 
-\item{event_value}{a character string of length 1 with the value of the event. This is optional.}
+\item{event_value}{a integer of length 1 with the value of the event. This is optional.}
 }
 \value{
 invisibly the result of a call to \code{\link[curl]{curl_fetch_memory}} which sends the data to Google Analytics
