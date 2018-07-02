@@ -208,10 +208,12 @@ ga_collect_event <- function(event_category="Start", event_action="default", eve
 
   url <- sprintf("%s&t=event&ec=%s&ea=%s", galog$url, event_category, event_action)
   if(!missing(event_label)){
+    stopifnot(is.character(event_label))
     event_label <- curl::curl_escape(as.character(event_label))
     url <- sprintf("%s&el=%s", url, event_label)
   }
   if(!missing(event_value)){
+    stopifnot(is.numeric(event_value))
     event_value <- curl::curl_escape(as.character(event_value))
     url <- sprintf("%s&ev=%s", url, event_value)
   }
